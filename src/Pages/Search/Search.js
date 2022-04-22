@@ -2,7 +2,7 @@ import { Button, createTheme, Tab, Tabs, TextField, ThemeProvider } from "@mater
 import { useEffect, useState } from "react";
 import SearchIcon from "@material-ui/icons/Search";
 import axios from "axios";
-import CustomPagination from "../../Pagination/CustomPagination";
+import CustomPagination from "../../components/Pagination/CustomPagination";
 import SingleContent from "../../components/SingleContent/SingleContent";
 
 const Search = () => {

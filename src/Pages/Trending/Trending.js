@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import '../../components/SingleContent/SingleContent'
 import SingleContent from "../../components/SingleContent/SingleContent";
-import CustomPagination from "../../Pagination/CustomPagination";
+import CustomPagination from "../../components/Pagination/CustomPagination";
 import './Trending.css'
 
 const Trending = () => {
