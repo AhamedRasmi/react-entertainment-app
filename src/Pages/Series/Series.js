@@ -31,7 +31,7 @@ const Series = () =>{
 
     return(
         <div>  
-           <span className ='pageTitle'>Series</span>
+           <span className ='pageTitle'> Tv Series</span>
              <Genres type = "tv"
              selectedGenres = {selectedGenres}
              setSelectedGenres = {setSelectedGenres}
